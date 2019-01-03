@@ -116,7 +116,7 @@ $ ssh-keygen -t rsa -C "crazystone_ly@sina.com"
 
 + 设置Github账户中的SSH key
 
-  打开个人主页Settings - SSH and GPG keys - `New SSH key`
+  打开个人主页Settings - SSH and GPG keys - 点击`New SSH key`按钮，将id_rsa.pub中的内容粘贴到页面，并对该SSH Key命名，即可完成配置
 
   
 
