@@ -50,4 +50,31 @@ remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
 Unpacking objects: 100% (3/3), done.
 ```
 
-+ 在本地的代码仓库中添加需要上传的文件
++ 在本地的代码仓库中添加需要提交的文件
+
+```git
+liuyan@DESKTOP-87KJQ3D MINGW64 /d/LearningGit (master)
+$ git add .
+
+liuyan@DESKTOP-87KJQ3D MINGW64 /d/LearningGit (master)
+$ git commit -m "First Commit"
+[master 2a364ae] First Commit
+ 1 file changed, 53 insertions(+)
+ create mode 100644 "\345\210\235\346\254\241\344\275\277\347\224\250Git\345\222\214\344\275\277\347\224\250Github\346\211\230\347\256\241\346\234\254\345\234\260\344\273\243\347\240\201.md"
+```
+
++ 将代码库中的文件提交到Github
+
+```git
+liuyan@DESKTOP-87KJQ3D MINGW64 /d/LearningGit (master)
+$ git push origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.12 KiB | 1.12 MiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/crazystonely/LearningGit.git
+   a65fd79..2a364ae  master -> master
+```
+
