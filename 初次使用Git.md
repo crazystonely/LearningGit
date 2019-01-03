@@ -78,3 +78,45 @@ To https://github.com/crazystonely/LearningGit.git
    a65fd79..2a364ae  master -> master
 ```
 
+#其他Git命令及上传Github方法
+
+```git
+git init //把这个目录变成Git可以管理的仓库
+
+git add README.md //文件添加到仓库
+
+git add . //不但可以跟单一文件，还可以跟通配符，更可以跟目录。一个点就把当前目录下所有未追踪的文件全部add了 
+
+git commit -m "first commit" //把文件提交到仓库
+
+git remote add origin git@github.com:crazystonely/LearningGit.git //关联远程仓库
+
+git push -u origin master //把本地库的所有内容推送到远程库上
+```
+
+# 为Github账户设置SSH Key
+
++ 首先检查是否生成密钥
+
+```git
+cd ~/.ssh
+ls
+```
+
+如果存在三个文件，则密钥已经生成，id_rsa.pub是公钥
+
++ 如果没有生成密钥，则通过以下命令来生成
+
+```git
+liuyan@DESKTOP-87KJQ3D MINGW64 ~
+$ ssh-keygen -t rsa -C "crazystone_ly@sina.com"
+```
+
++ 生成后将id_rsa.pub文件（公钥）使用记事本打开
+
++ 设置Github账户中的SSH key
+
+  打开个人主页Settings - SSH and GPG keys - `New SSH key`
+
+  
+
