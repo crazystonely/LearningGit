@@ -63,7 +63,7 @@ $ git commit -m "First Commit"
  create mode 100644 "\345\210\235\346\254\241\344\275\277\347\224\250Git\345\222\214\344\275\277\347\224\250Github\346\211\230\347\256\241\346\234\254\345\234\260\344\273\243\347\240\201.md"
 ```
 
-+ 将代码库中的文件提交到Github
++ 将代码库中的文件提交到Github，使用`git push origin master`同步
 
 ```git
 liuyan@DESKTOP-87KJQ3D MINGW64 /d/LearningGit (master)
