@@ -120,3 +120,8 @@ $ ssh-keygen -t rsa -C "crazystone_ly@sina.com"
 
   
 
+## Notes
+
++ `git push`的一般形式为 git push <远程主机名> <本地分支名>  <远程分支名> 
+
+  例如 `git push origin master：refs/for/master` ，即是将本地的master分支推送到远程主机origin上的对应master分支， origin 是远程主机名， 第一个master是本地分支名，第二个master是远程分支名。
